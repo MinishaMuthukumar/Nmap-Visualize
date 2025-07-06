@@ -4,89 +4,54 @@
 Transforming raw Nmap scans into actionable, beautiful visual insights.
 </p>
 
----
-
-<h2>✨ About This Project</h2>
-
-<p>This tool parses <b>Nmap XML outputs</b> to generate:</p>
-
-<ul>
-  <li>🌐 <b>Network Topology Graph</b> – Visualize IPs and their open ports/services</li>
-  <li>📊 <b>Bar Chart</b> – See the number of open ports per host at a glance</li>
-</ul>
-
----
-
-<h2>🚀 Why?</h2>
-
-<p>Traditional Nmap outputs are powerful but text-heavy. This project helps:</p>
-
-<ul>
-  <li>✅ <b>Penetration testers</b> understand attack surfaces quickly</li>
-  <li>✅ <b>Network admins</b> identify exposures and plan remediation</li>
-</ul>
-
----
-
-<h2>🛠 Built With</h2>
-
-<ul>
-  <li>🐍 Python</li>
-  <li>📦 xmltodict</li>
-  <li>🖧 NetworkX</li>
-  <li>📈 Matplotlib</li>
-</ul>
-
----
-
-<h2>⚡ How To Run</h2>
-
-<ol>
-  <li><b>Run Nmap scan</b> with XML output:
-    <pre>
-nmap -sV -oX output.xml &lt;target-ip-or-range&gt;
-    </pre>
-  </li>
-
-  <li><b>Place <code>output.xml</code></b> in your project folder.</li>
-
-  <li><b>Run the script:</b>
-    <pre>
-python nmap_visualize.py
-    </pre>
-  </li>
-
-  <li><b>View the outputs:</b>
-    <ul>
-      <li>🌐 Network graph window</li>
-      <li>📊 Bar chart window</li>
-    </ul>
-  </li>
-</ol>
-
----
-
-<h2>💡 Example Visuals</h2>
-
-<h2>🔮 Future Enhancements</h2>
-
-<ul>
-  <li>Service heatmaps</li>
-  <li>Vulnerability visualizations using Nmap NSE scripts</li>
-  <li>Interactive dashboard with Streamlit</li>
-</ul>
-
----
-
-<h2>👩‍💻 Author</h2>
-
-<p>
-👤 <a href="https://github.com/MinishaMuthukumar">Minisha Muthukumar</a><br>
-💡 B.Tech IT | Cybersecurity & Ethical Hacking Enthusiast
-</p>
-
----
-
 <p align="center">
-⭐️ <b>If you find this project useful, please star this repo!</b>
+  <a href="https://github.com/MinishaMuthukumar/nmap-visualization">
+    <img src="https://img.shields.io/github/stars/MinishaMuthukumar/nmap-visualization?style=social" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/MinishaMuthukumar/nmap-visualization/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MinishaMuthukumar/nmap-visualization" alt="License">
+  </a>
 </p>
+
+---
+
+## ✨ **About This Project**
+
+This tool parses **Nmap XML scan outputs** and generates:
+
+- 🌐 **Network Topology Graph** – Visualizes IP addresses with their open ports/services  
+- 📊 **Bar Chart** – Shows the number of open ports per host for quick analysis
+
+---
+
+## 🚀 **Why use this?**
+
+Traditional Nmap outputs are powerful but text-heavy. Visualizing them:
+
+✅ Helps **penetration testers** understand attack surfaces quickly  
+✅ Enables **network admins** to identify exposures clearly
+
+---
+
+## 🛠 **Built With**
+
+- 🐍 Python
+- 📦 xmltodict
+- 🖧 NetworkX
+- 📈 Matplotlib
+
+---
+
+## ⚡ **Step-by-Step Procedure**
+
+### **🔧 1. Prerequisites**
+
+Ensure you have:
+
+✅ **Python installed** (Python 3.8+)  
+✅ **Nmap installed** (default on Kali Linux)
+
+Install required Python libraries:
+
+```bash
+pip install xmltodict networkx matplotlib
