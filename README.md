@@ -54,18 +54,14 @@ pip install xmltodict networkx matplotlib
 🔎 2. Perform Nmap Scan
 Run your Nmap scan with XML output:
 
-bash
-Copy
-Edit
+
 nmap -sV -oX output.xml <target-ip-or-range>
 
 ✔️ Replace <target-ip-or-range> with your target IP or subnet.
 ✔️ This generates an output.xml file containing the scan results.
 
 💻 3. Clone this Repository
-bash
-Copy
-Edit
+
 
 git clone https://github.com/MinishaMuthukumar/nmap-visualization.git
 
@@ -77,9 +73,7 @@ Place your output.xml file inside this project folder.
 🚀 5. Run the Visualization Script
 Run the Python script to visualize your scan:
 
-bash
-Copy
-Edit
+
 python nmap_visualize.py
 👀 6. View Outputs
 You will see:
