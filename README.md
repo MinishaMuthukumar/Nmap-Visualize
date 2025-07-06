@@ -50,6 +50,9 @@ Ensure you have:
 Install required Python libraries:
 
 ```bash
+
+<p align="center"> ⭐️ <b>If you find this project useful, please star this repo!</b> </p> ```
+
 pip install xmltodict networkx matplotlib
 🔎 2. Perform Nmap Scan
 Run your Nmap scan with XML output:
@@ -92,4 +95,3 @@ Interactive dashboard with Streamlit
 👤 Minisha Muthukumar
 💡 B.Tech IT | Cybersecurity & Ethical Hacking Enthusiast
 
-<p align="center"> ⭐️ <b>If you find this project useful, please star this repo!</b> </p> ```
