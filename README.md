@@ -58,6 +58,7 @@ bash
 Copy
 Edit
 nmap -sV -oX output.xml <target-ip-or-range>
+
 ✔️ Replace <target-ip-or-range> with your target IP or subnet.
 ✔️ This generates an output.xml file containing the scan results.
 
@@ -65,8 +66,11 @@ nmap -sV -oX output.xml <target-ip-or-range>
 bash
 Copy
 Edit
+
 git clone https://github.com/MinishaMuthukumar/nmap-visualization.git
+
 cd nmap-visualization
+
 📂 4. Add Your Nmap Output
 Place your output.xml file inside this project folder.
 
@@ -84,10 +88,7 @@ You will see:
 
 📊 Bar Chart Window – showing number of open ports per IP
 
-💡 Example Visuals
-<table> <tr> <th>Network Graph</th> <th>Bar Chart</th> </tr> <tr> <td align="center"> <img src="images/network_graph.png" width="300"/> </td> <td align="center"> <img src="images/bar_chart.png" width="300"/> </td> </tr> </table> <p><i>Add screenshots to your <code>/images</code> folder for better README presentation.</i></p>
-🔮 Future Enhancements
-Service heatmaps
+
 
 Vulnerability visualization using Nmap NSE scripts
 
