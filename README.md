@@ -51,7 +51,6 @@ Install required Python libraries:
 
 ```bash
 
-<p align="center"> ⭐️ <b>If you find this project useful, please star this repo!</b> </p> ```
 
 pip install xmltodict networkx matplotlib
 🔎 2. Perform Nmap Scan
