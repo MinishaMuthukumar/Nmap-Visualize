@@ -68,25 +68,6 @@ python nmap_visualize.py
 
 <h2>💡 Example Visuals</h2>
 
-<table>
-  <tr>
-    <th>Network Graph</th>
-    <th>Bar Chart</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="images/network_graph.png" width="300"/>
-    </td>
-    <td align="center">
-      <img src="images/bar_chart.png" width="300"/>
-    </td>
-  </tr>
-</table>
-
-<p><i>Add screenshots to your <code>/images</code> folder for better README presentation.</i></p>
-
----
-
 <h2>🔮 Future Enhancements</h2>
 
 <ul>
